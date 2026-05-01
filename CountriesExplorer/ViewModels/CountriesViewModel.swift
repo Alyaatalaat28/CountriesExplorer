@@ -50,8 +50,6 @@ class CountriesViewModel: ObservableObject {
         countries.filter { isFavourite($0) }
     }
 
-    ─────────────────────────────────────────
-
     init() {
         loadFavourites()
     }
